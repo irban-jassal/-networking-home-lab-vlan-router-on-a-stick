@@ -7,6 +7,14 @@ no service timestamps debug datetime msec
 no service password-encryption
 !
 hostname Switch
+vlan 10
+name Admin
+
+vlan 20
+name Sales
+
+vlan 30
+name IT
 !
 !
 !
