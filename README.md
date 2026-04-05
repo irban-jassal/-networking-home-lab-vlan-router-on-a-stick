@@ -36,7 +36,10 @@ VLAN  Name    Network
 
 ### DHCP Configuration
 - Automatic IP assignment for all VLANs  
-- Excluded IP ranges for gateway and reserved addresses  
+- Excluded IP ranges for gateway and reserved addresses
+- Exclude Range 192.168.10.1-192.168.10.10
+- Exclude Range 192.168.20.1-192.168.20.10
+- Exclude Range 192.168.30.1-192.168.10.10
 
 ### ACL Implementation
 - Restricted communication from **Sales VLAN (20)** to **IT VLAN (30)**  
@@ -106,7 +109,7 @@ VLAN  Name    Network
 
 
 
-## 📂 Project Structure
+## Project Structure
 ```
 configs/
   ├── router.txt
